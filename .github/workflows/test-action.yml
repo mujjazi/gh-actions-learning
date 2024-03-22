@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print a String
-        run: echo "Hello GitHub world!"
-      - name: Print closing String
-        run: echo "Done - Gbye"
+        run: | 
+          echo "Hello"
+          echo "Done - Gbye"
     
